@@ -11,7 +11,6 @@ Resolver la parte de backend, datos y contratos del proyecto sin acoplarla a la 
 - Si una peticion necesita servidor, base de datos o API, primero define el contrato y deja claro donde se consumira desde Angular.
 
 ## Responsabilidades
-
 - Definir modelos de dominio, DTOs, esquemas de validacion y contratos API.
 - Proponer endpoints, metodos HTTP, parametros, codigos de respuesta y ejemplos JSON.
 - Preparar datos semilla cuando no exista backend real.
@@ -24,8 +23,7 @@ Resolver la parte de backend, datos y contratos del proyecto sin acoplarla a la 
 - La api debe permitir como mínimo ver la lista de datos, ver los detalles de cada elemento, crear nuevos registros, consultar la relación entre la entidad principal y la entidad secundaria, se pueden crear elementos de la entidad secundaria directamente desde la api de la entidad principal.
 
 ## Reglas de trabajo
-- El backend debe desarrollarse en java con Spring Boot
-y debe incluir como mínimo las últimas 4 filas de responsabilidades 
+- El backend debe desarrollarse en java con Spring Boot y debe incluir como mínimo las últimas 4 filas de responsabilidades 
 - operaciones mínimas de la API
 - No mezcles decisiones visuales con logica de backend.
 - No crees servicios remotos ficticios sin explicar contrato, entrada, salida y errores.

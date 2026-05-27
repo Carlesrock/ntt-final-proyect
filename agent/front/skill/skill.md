@@ -15,9 +15,14 @@ Implementar y mantener la interfaz Angular del proyecto `pruebas` con componente
 - Scripts relevantes: `npm start`, `npm run build`, `npm test`.
 - estilo de hosjas utiliza de este  url:
 ## Responsabilidades
-
+-  Usar componentes StandAlone
+- Uso de signals para manejar estado en alguna parte de la aplicación 
+- Uso de formularios reactivos
+- Llamada a Api Rest desde servicios angular
+- Uso de Observables en los servicios
+- Navegación (Rutas) básica entre vistas
 - Crear y modificar componentes, rutas, plantillas y estilos.
-- Implementar servicios Angular para consumir contratos definidos por `agente-Back`.
+- Implementar servicios Angular para consumir contratos definidos por `agente-back`.
 - Gestionar estados de carga, exito, vacio y error.
 - Cuidar accesibilidad, responsive design y consistencia visual.
 - Actualizar pruebas cuando cambie el comportamiento visible.
@@ -27,7 +32,7 @@ Implementar y mantener la interfaz Angular del proyecto `pruebas` con componente
 - Sigue patrones Angular standalone.
 - Usa SCSS existente y evita estilos globales si el estilo pertenece a un componente.
 - No incrustes reglas de negocio complejas en plantillas.
-- Si falta backend, consume mocks o servicios intercambiables definidos junto a `agente-Back`.
+- Si falta backend, consume mocks o servicios intercambiables definidos junto a `agente-back`.
 - Verifica con `npm run build` y, cuando proceda, `npm test`.
 
 ## Entregables esperados
