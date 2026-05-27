@@ -1,0 +1,45 @@
+# ==========================================
+# 1. ARCHIVOS GLOBALES Y DE SISTEMA
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ==========================================
+# 2. CONFIGURACIÓN DE IDEs (Entornos de desarrollo)
+# ==========================================
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==========================================
+# 3. BACKEND (Java / Maven / Spring Boot)
+# ==========================================
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/*.jar
+backend/*.war
+
+# ==========================================
+# 4. FRONTEND (Angular / Node / TypeScript)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+frontend/.env
+
+# ==========================================
+# 5. BASE DE DATOS LOCALES
+# ==========================================
+*.db
+*.sqlite
